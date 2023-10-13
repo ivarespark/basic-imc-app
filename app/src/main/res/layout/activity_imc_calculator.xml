@@ -178,8 +178,7 @@
                     android:layout_marginEnd="8dp"
                     android:backgroundTint="@color/background_fab"
                     android:src="@drawable/ic_less"
-                    app:tint="@color/white"
-                    />
+                    app:tint="@color/white" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/btnMoreWeight"
@@ -188,7 +187,7 @@
                     android:layout_marginStart="8dp"
                     android:backgroundTint="@color/background_fab"
                     android:src="@drawable/ic_more"
-                    app:tint="@color/white"/>
+                    app:tint="@color/white" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -245,8 +244,7 @@
                     android:layout_marginEnd="8dp"
                     android:backgroundTint="@color/background_fab"
                     android:src="@drawable/ic_less"
-                    app:tint="@color/white"
-                    />
+                    app:tint="@color/white" />
 
                 <com.google.android.material.floatingactionbutton.FloatingActionButton
                     android:id="@+id/btnMoreAge"
@@ -255,7 +253,7 @@
                     android:layout_marginStart="8dp"
                     android:backgroundTint="@color/background_fab"
                     android:src="@drawable/ic_more"
-                    app:tint="@color/white"/>
+                    app:tint="@color/white" />
 
             </androidx.appcompat.widget.LinearLayoutCompat>
 
@@ -263,4 +261,16 @@
 
     </androidx.cardview.widget.CardView>
 
+    <Button
+        android:id="@+id/btnCalculate"
+        style="@style/Widget.MaterialComponents.TimePicker.Button"
+        android:layout_width="0dp"
+        android:layout_height="80dp"
+        android:backgroundTint="@color/background_fab"
+        android:text="@string/calculate"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>
