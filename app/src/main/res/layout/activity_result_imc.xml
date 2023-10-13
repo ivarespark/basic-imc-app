@@ -25,13 +25,16 @@
     <androidx.cardview.widget.CardView
         android:id="@+id/cvResultImc"
         android:layout_width="0dp"
-        android:layout_height="360dp"
+        android:layout_height="0dp"
         android:layout_marginTop="32dp"
+        android:layout_marginBottom="32dp"
         app:cardBackgroundColor="@color/background_component"
         app:cardCornerRadius="8dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvTitleResult">
+        app:layout_constraintTop_toBottomOf="@id/tvTitleResult"
+        app:layout_constraintBottom_toTopOf="@id/btnRecalculate"
+        >
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -56,7 +59,7 @@
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
                 android:textColor="@color/white"
-                android:textSize="60sp"
+                android:textSize="72sp"
                 android:textStyle="bold"
                 tools:text="24.3" />
 
