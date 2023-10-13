@@ -30,11 +30,10 @@
         android:layout_marginBottom="32dp"
         app:cardBackgroundColor="@color/background_component"
         app:cardCornerRadius="8dp"
+        app:layout_constraintBottom_toTopOf="@id/btnRecalculate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/tvTitleResult"
-        app:layout_constraintBottom_toTopOf="@id/btnRecalculate"
-        >
+        app:layout_constraintTop_toBottomOf="@id/tvTitleResult">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -48,10 +47,11 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_margin="16dp"
+                android:textAllCaps="true"
                 android:textColor="@color/white"
-                android:textSize="18sp"
-
-                tools:text="@string/normal" />
+                android:textSize="24sp"
+                android:textStyle="bold"
+                tools:text="-" />
 
             <TextView
                 android:id="@+id/tvImcValue"
@@ -83,7 +83,7 @@
         android:layout_width="0dp"
         android:layout_height="80dp"
         android:backgroundTint="@color/background_button"
-        android:text="Recalculate"
+        android:text="@string/recalculate"
         android:textAllCaps="true"
         android:textColor="@color/white"
         android:textSize="18sp"

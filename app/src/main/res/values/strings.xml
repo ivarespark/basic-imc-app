@@ -6,6 +6,15 @@
     <string name="weight">Peso</string>
     <string name="age">Edad</string>
     <string name="calculate">Calcular</string>
-    <string name="your_result">Your Result</string>
-    <string name="normal">NORMAL</string>
+    <string name="your_result">Tu resultado</string>
+    <string name="low_level">Bajo</string>
+    <string name="normal_level">Normal</string>
+    <string name="high_level">Alto</string>
+    <string name="over_level">Muy Alto</string>
+    <string name="low_description">Tu IMC es bajo</string>
+    <string name="normal_description">Tu IMC es normal</string>
+    <string name="high_description">Tu IMC es alto. Riesgo de enfermedad.</string>
+    <string name="over_description">Tu IMC es demasiado alto. Riesgo de muerte.</string>
+    <string name="error">ERROR</string>
+    <string name="recalculate">Recalcular</string>
 </resources>

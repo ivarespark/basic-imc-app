@@ -9,4 +9,9 @@
     <color name="background_button">#EB1555</color>
     <color name="title_text">#FF8D8E98</color>
     <color name="background_fab">#FF6200EE</color>
+    <color name="low_color">#FFEB3B</color>
+    <color name="normal_color">#8BC34A</color>
+    <color name="high_color">#FF5722</color>
+    <color name="over_color">#FA3D2F</color>
+
 </resources>

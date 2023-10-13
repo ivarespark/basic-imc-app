@@ -3,6 +3,7 @@ package com.example.basicimcapp.activities
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.util.Log
 import android.widget.Button
 import android.widget.TextView
 import android.widget.Toast
@@ -84,7 +85,7 @@ class ImcCalculatorActivity : AppCompatActivity() {
 
     private fun navigateToResult(result: Double) {
         val intent = Intent(this,ResultImcActivity::class.java)
-        intent.putExtra("IMC_KEY", result)
+        intent.putExtra(IMC_KEY, result)
         startActivity(intent)
     }
 
